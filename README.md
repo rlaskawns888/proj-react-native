@@ -10,7 +10,7 @@ https://github.com/callstack/react-native-pager-view
 
 
 - 여기서부터 진행하면됨
-https://reactnative.dev/docs/using-a-listview
+https://reactnative.dev/docs/running-on-device
 
 ```
 
