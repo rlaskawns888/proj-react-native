@@ -12,13 +12,19 @@ import { StyleSheet, Text, View } from 'react-native';
 /** Scroll View | https://reactnative.dev/docs/using-a-scrollview */
 import Logo from './components/sample/04.Logo';
 
+/** FlatList | https://reactnative.dev/docs/using-a-listview  */
+import FlatListBasics from './components/sample/05.FlatList';
+import SectionListBasics from './components/sample/06.SectionList';
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello World!!!</Text>
-      
-      <Logo />
+      {/* <Text>Hello World!!!</Text> */}
 
+      <SectionListBasics />
+
+      {/* <FlatListBasics/> */}
+      {/* <Logo /> */}
       {/* <Pizza /> */}
       {/* <Hungry /> */}
       {/* <Cafe /> */}
@@ -33,7 +39,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
